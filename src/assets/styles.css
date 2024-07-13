@@ -1,0 +1,119 @@
+
+.body{
+    font-family: "";
+}
+.btn-weinno {
+    background-color: #102D69 !important;
+    color: white;
+}
+.table-weinno {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-weinno thead th {
+    background-color: #ffffff;
+    color: #102d69;
+    text-align: right;
+    padding: 8px;
+}
+.table-weinno thead tr th:first-child{
+    width: 5%;
+    text-align: center;
+}
+.table-weinno thead tr th:last-child{
+    width: 20%;
+    text-align: center;
+}
+.table-weinno tbody tr td:first-child{
+    color: #102D69;
+    text-align: center;
+}
+.table-weinno tbody tr td:last-child{
+    text-align: center;
+}
+.table-weinno thead {
+    border: 1px solid #102d69 !important;
+}
+
+.table-weinno tbody {
+    box-shadow: 0px 4px 4px rgba(16, 45, 105, 0.25)
+}
+.table-weinno tbody td {
+    border-bottom: 1px solid #dee2e6;
+    text-align: right;
+    padding: 8px;
+}
+
+.table-weinno tbody tr:nth-child(odd) {
+    background-color: #f3f5fc;
+}
+
+.table-weinno tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.table-weinno tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.table-weinno tbody tr td button {
+    margin: 0 5px;
+}
+
+.table-weinno tbody tr td .btn-edit {
+    border-color: #102d69;
+    color: #102D69;
+}
+
+.table-weinno tbody tr td .btn-edit:hover {
+    background-color: #0b1f47;
+    border-color: #0b1f47;
+    color: #fff;
+}
+
+.table-weinno tbody tr td .btn-delete {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+.table-weinno tbody tr td .btn-delete:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    color: #fff;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination .page-item {
+    margin: 0 5px;
+}
+
+.pagination .page-link {
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #dee2e6;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.pagination .page-link:hover {
+    background-color: #e9ecef;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #102d69;
+    color: white;
+    border-color: #102d69;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #dee2e6;
+}

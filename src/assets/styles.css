@@ -1,6 +1,6 @@
 
-.body{
-    font-family: "";
+body {
+    font-family: 'Yekan Bakh';
 }
 .btn-weinno {
     background-color: #102D69 !important;
@@ -86,34 +86,67 @@
 .pagination {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
-
-.pagination .page-item {
-    margin: 0 5px;
-}
-
+  
 .pagination .page-link {
-    color: #007bff;
+    color: #102D69;
+    font-size: 16px;
     text-decoration: none;
-    border: 1px solid #dee2e6;
-    padding: 5px 10px;
-    border-radius: 5px;
+    margin: 0 4px;
+    border-radius: 50%;
+    border: 0px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: end;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s, color 0.3s;
 }
-
-.pagination .page-link:hover {
-    background-color: #e9ecef;
+.pagination .page-disable {
+    color: #102D69;
+    font-size: 16px;
+    border: 0px;
+    text-decoration: none;
+    margin: 0 4px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s, color 0.3s;
 }
-
-.pagination .page-item.active .page-link {
-    background-color: #102d69;
-    color: white;
-    border-color: #102d69;
-}
-
-.pagination .page-item.disabled .page-link {
-    color: #6c757d;
-    pointer-events: none;
-    background-color: #fff;
-    border-color: #dee2e6;
-}
+  
+  .pagination .page-link:hover {
+    background-color: #102D69;
+    color: #ffffff;
+    
+  }
+  
+  .pagination .page-link.active {
+    background-color: #102D69;
+    color: #ffffff ;
+  }
+  
+  .pagination .paging {
+    margin: 0 8px;
+  }
+  
+  .pagination .paging .page-link {
+    border: none;
+    background-color: transparent;
+  }
+  .pagination .paging .paging-link {
+    color: #102D69;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    line-height: 28px; /* 175% */
+  }
+  .pagination .paging .paging-link:hover{
+    text-decoration-line: underline; 
+    text-decoration-style: solid;
+  }
